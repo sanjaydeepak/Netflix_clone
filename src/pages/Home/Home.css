@@ -1,0 +1,89 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+
+.banner-img {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+/* Hero caption positioning */
+.hero-caption {
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+/* Caption image */
+.caption-img {
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 2rem;
+}
+
+/* Text styles */
+.hero-caption p {
+    max-width: 700px;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+/* Button container */
+.hero-btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 3rem;
+}
+
+/* Buttons */
+.hero-btns .btn {
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 1.25rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero-btns .btn:hover {
+    background: #f0f0f0;
+}
+
+/* Button icons */
+.hero-btns .btn img {
+    width: 25px;
+}
+.hero-btns .btn.dark-btn
+{
+    color:#fff;
+    background: #6d6d6eb3;
+}
+.hero-btns .btn:hover{
+    background: #ffffffbf;
+}
+.hero-btns .btn.dark-btn:hover{
+    background: #6d6d6e66;
+}
+/* Cards CSS  */
+.more-cards
+{
+    padding-left:6%;
+}
